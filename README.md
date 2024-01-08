@@ -9,3 +9,6 @@ App.css
 index.cess
 
 Make three folder 
+components
+pages
+styles
