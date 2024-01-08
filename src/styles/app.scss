@@ -3,3 +3,40 @@
     line-height: 1.5;
     font-weight: 400;
 }
+
+// mixin 
+
+
+// default css property 
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+// anker tag css 
+a{
+    text-decoration: none;
+    color:black;
+
+}
+
+
+
+// class 
+
+.red{
+    color: red;
+}
+
+
+.purple{
+    color:rgb(47, 0, 255)
+}
+
+.green{
+    color:rgb(0, 195, 0)
+}
+
+
