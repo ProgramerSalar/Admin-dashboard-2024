@@ -12,3 +12,7 @@ Make three folder
 components
 pages
 styles
+
+
+
+
