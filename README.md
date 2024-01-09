@@ -13,6 +13,13 @@ components
 pages
 styles
 
+Dashboard section:----------
 
-make this section of Dashboard:
+make widget section in Dashboard:
 ![Alt text](<Screenshot 2024-01-09 141329.png>)
+
+
+
+
+create Inventry section in Dashboard:
+![Alt text](<Screenshot 2024-01-09 150938.png>)
