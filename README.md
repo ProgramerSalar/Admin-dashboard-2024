@@ -45,3 +45,8 @@ add the gender Ratio in Dashboard:
 add the Top Transaction in Dashboard:
 
 ![Alt text](<Screenshot 2024-01-09 191040.png>)
+
+
+add sorted in Product Page (sorted means :- if you click the one times then show ascending order again click show decending order):
+
+![Alt text](<Screenshot 2024-01-09 195559.png>)
