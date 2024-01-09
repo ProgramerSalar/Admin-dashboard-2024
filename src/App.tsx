@@ -23,9 +23,9 @@ const App = () => {
       <Suspense fallback={<Loader/>}>
       <Routes>
         <Route path="/admin/dashboard" element={<Dashboard />}  />
-        <Route path="/admin/dashboard/product" element={<Product />}  />
-        <Route path="/admin/dashboard/customer" element={<Customer />}  />
-        <Route path="/admin/dashboard/transaction" element={<Transaction />}  />
+        <Route path="/admin/product" element={<Product />}  />
+        <Route path="/admin/customer" element={<Customer />}  />
+        <Route path="/admin/transaction" element={<Transaction />}  />
 
 
 
