@@ -14,5 +14,5 @@ pages
 styles
 
 
-
-
+make this section of Dashboard:
+![Alt text](<Screenshot 2024-01-09 141329.png>)
