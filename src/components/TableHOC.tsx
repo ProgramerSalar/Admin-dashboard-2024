@@ -3,8 +3,8 @@ import { useTable, Column, TableOptions } from "react-table";
 function TableHOC<T extends Object>(
   columns: Column<T>[],
   data: T[],
-  containerClassname: string,
-  heading: string
+  containerClassname:string,
+  heading: string,
 ) {
   return function HOC() {
     const options: TableOptions<T> = {
@@ -18,7 +18,7 @@ function TableHOC<T extends Object>(
 
 
     return(
-        <div className="containerClassname">
+        <div className={containerClassname}>
             <h2 className="heading">
                 {heading}
             </h2>

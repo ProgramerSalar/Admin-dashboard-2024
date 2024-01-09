@@ -39,3 +39,9 @@ create REvinew and Transation Section:
 add the gender Ratio in Dashboard:
 
 ![Alt text](<Screenshot 2024-01-09 164638.png>)
+
+
+
+add the Top Transaction in Dashboard:
+
+![Alt text](<Screenshot 2024-01-09 191040.png>)
