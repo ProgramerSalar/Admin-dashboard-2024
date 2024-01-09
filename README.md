@@ -33,3 +33,9 @@ npm install --save chart.js react-chartjs-2
 create REvinew and Transation Section:
 
 ![Alt text](<Screenshot 2024-01-09 160954.png>)
+
+
+
+add the gender Ratio in Dashboard:
+
+![Alt text](<Screenshot 2024-01-09 164638.png>)

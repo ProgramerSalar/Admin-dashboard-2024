@@ -4,7 +4,8 @@ import { FaRegBell } from "react-icons/fa";
 import userpic from "../assets/userpic.png";
 import { HiTrendingDown, HiTrendingUp } from "react-icons/hi";
 import data from "../assets/data.json";
-import { BarChart } from "../components/Chart";
+import { BarChart, DoughnutChart } from "../components/Chart";
+import { BiMaleFemale } from "react-icons/bi";
 
 const Dashboard = () => {
   return (
@@ -51,13 +52,20 @@ const Dashboard = () => {
         <section className="graph-container">
           <div className="revinew-chart">
             <h2>Revinew & Transaction</h2>
-            <BarChart data_1={[34,32,34,32,43]} data_2={[43,32,43,34,32]} title_1="Revinew" title_2="Transaction" bgColor_1="rgb(0, 115, 255)" bgColor_2="rgb(53, 162, 235, 0.8)"/>
+            <BarChart
+              data_1={[34, 32, 34, 32, 43]}
+              data_2={[43, 32, 43, 34, 32]}
+              title_1="Revinew"
+              title_2="Transaction"
+              bgColor_1="rgb(0, 115, 255)"
+              bgColor_2="rgb(53, 162, 235, 0.8)"
+            />
           </div>
           <div className="dashboard-categories">
             <h2>Inventory</h2>
             {data.categories.map((i) => (
               <CategoryItem
-              key={i.heading}
+                key={i.heading}
                 heading={i.heading}
                 value={i.value}
                 color={`hsl(${i.value * 4},${i.value}%,50%)`}
@@ -66,6 +74,24 @@ const Dashboard = () => {
 
             <div></div>
           </div>
+        </section>
+
+        <section className="transation-container">
+          <div className="gender-chart">
+            <h2>Gender Ratio</h2>
+            {/* chart  */}
+            <DoughnutChart
+              labels={["female", "male"]}
+              data={[12, 19]}
+              backgroundColor={["hsl(340,82%, 56)","rgba(53, 162, 235, 0.8)"]}
+              cutout={90}
+            />
+            <p>
+              <BiMaleFemale />
+            </p>
+          </div>
+
+          {/* Table  */}
         </section>
       </main>
     </div>
