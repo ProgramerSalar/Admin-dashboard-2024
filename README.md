@@ -22,4 +22,14 @@ make widget section in Dashboard:
 
 
 create Inventry section in Dashboard:
+
 ![Alt text](<Screenshot 2024-01-09 150938.png>)
+
+
+
+install two package using the chart:
+npm install --save chart.js react-chartjs-2
+
+create REvinew and Transation Section:
+
+![Alt text](<Screenshot 2024-01-09 160954.png>)

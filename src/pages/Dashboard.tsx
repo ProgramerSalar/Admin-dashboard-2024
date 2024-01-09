@@ -4,6 +4,7 @@ import { FaRegBell } from "react-icons/fa";
 import userpic from "../assets/userpic.png";
 import { HiTrendingDown, HiTrendingUp } from "react-icons/hi";
 import data from "../assets/data.json";
+import { BarChart } from "../components/Chart";
 
 const Dashboard = () => {
   return (
@@ -50,6 +51,7 @@ const Dashboard = () => {
         <section className="graph-container">
           <div className="revinew-chart">
             <h2>Revinew & Transaction</h2>
+            <BarChart data_1={[34,32,34,32,43]} data_2={[43,32,43,34,32]} title_1="Revinew" title_2="Transaction" bgColor_1="rgb(0, 115, 255)" bgColor_2="rgb(53, 162, 235, 0.8)"/>
           </div>
           <div className="dashboard-categories">
             <h2>Inventory</h2>
