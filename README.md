@@ -128,6 +128,9 @@ Toss App Image Look Like THis:
 
 
 
+i make responsive: 
+code write in mediaqueryscss file.
+
 
 
 
