@@ -24,6 +24,7 @@ const BarCharts = () => {
         <h1>Bar Charts</h1>
         <section>
           <BarChart
+          
             data_1={[200, 444, 343, 556, 778, 455, 990]}
             data_2={[300, 144, 433, 655, 237, 755, 190]}
             title_1="Products"

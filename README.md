@@ -97,3 +97,8 @@ Bar Charts Image Look Like this:
 
 
 ![Alt text](<Screenshot 2024-01-10 124400.png>)
+
+
+Pie chart Image Look Like this:
+
+![Alt text](<Screenshot 2024-01-10 134340.png>)
