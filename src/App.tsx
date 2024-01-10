@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Loader from "./components/Loader";
 import BarCharts from "./pages/charts/BarCharts";
@@ -27,6 +27,8 @@ const App = () => {
     <Router>
       <Suspense fallback={<Loader />}>
         <Routes>
+          <Route path="/" element={<Link to="/admin/dashboard"><button>Visit DashBoard</button></Link>}/>
+
           <Route path="/admin/dashboard" element={<Dashboard />} />
           <Route path="/admin/product" element={<Product />} />
           <Route path="/admin/customer" element={<Customer />} />
