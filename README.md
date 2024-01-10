@@ -106,9 +106,7 @@ Pie chart Image Look Like this:
 
 Line Charts Image Look Like This:
 
-![
-    
+![](<Screenshot 2024-01-10 135811.png>)
 
 
-    
-](<Screenshot 2024-01-10 135811.png>)
+
