@@ -48,6 +48,13 @@ const AdminSideBar = () => {
         <DivOne location={location} />
         <DivTwo location={location} />
         <DivThree location={location} />
+
+
+        {phoneActive && (
+          <button id="close-sidebar" onClick={() => setShowModal(false)}>
+            Close
+          </button>
+        )}
       </aside>
     </>
   );
