@@ -4,6 +4,9 @@ import Loader from "./components/Loader";
 import BarCharts from "./pages/charts/BarCharts";
 import PiCharts from "./pages/charts/PiCharts";
 import LineCharts from "./pages/charts/LineCharts";
+import Coupon from "./pages/apps/Coupon";
+import Stopwatch from "./pages/apps/Stopwatch";
+import Toss from "./pages/apps/Toss";
 
 
 // imports
@@ -36,6 +39,9 @@ const App = () => {
           <Route path="/admin/chart/line" element={<LineCharts/>}/>
 
           {/* Apps  */}
+          <Route path="/admin/app/stopwatch" element={< Stopwatch/>} />
+          <Route path="/admin/app/coupon" element={< Coupon/>} />
+          <Route path="/admin/app/toss" element={< Toss/>} />
 
           {/* management  */}
 

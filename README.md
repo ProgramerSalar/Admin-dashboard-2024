@@ -110,3 +110,6 @@ Line Charts Image Look Like This:
 
 
 
+StopWatch Image Look Like THis:
+
+![Alt text](<Screenshot 2024-01-10 141141.png>)
