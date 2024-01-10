@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IconType } from "react-icons";
 import { AiFillFileText } from "react-icons/ai";
 import {
@@ -24,6 +24,21 @@ const AdminSideBar = () => {
   );
 
   const location = useLocation();
+
+
+  const resizeHandler = () => {
+    setPhoneActive(window.innerWidth < 1100);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", resizeHandler);
+
+    return () => {
+      window.removeEventListener("resize", resizeHandler);
+    };
+  }, []);
+
+  
   return (
     <>
       {phoneActive && (
