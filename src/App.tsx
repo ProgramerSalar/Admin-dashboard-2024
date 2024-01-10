@@ -1,6 +1,9 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import {Suspense, lazy} from 'react'
 import Loader from "./components/Loader"
+import NewProduct from "./pages/magement/NewProduct"
+import ProductManagement from "./pages/magement/ProductManagement"
+import TransactionManagement from "./pages/magement/TransactionManagement"
 
 
 
@@ -33,6 +36,17 @@ const App = () => {
 
 
         {/* Apps  */}
+
+
+        {/* management  */}
+
+        
+          <Route path="/admin/product/new" element={<NewProduct/>} />
+          <Route path="/admin/product/:id" element={<ProductManagement/>} />
+          <Route path="/admin/transaction/:id" element={<TransactionManagement/>} />
+  
+
+
         
       </Routes>
       </Suspense>

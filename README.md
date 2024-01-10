@@ -66,11 +66,16 @@ add pagination in Product page:
 ![Alt text](<Screenshot 2024-01-10 113210.png>)
 
 
-add Customer Like this:
+add Customer Image Like this:
 
 ![Alt text](<Screenshot 2024-01-10 114646.png>)
 
 
-add Transaction Like this:
+add Transaction Image Like this:
 
 ![Alt text](<Screenshot 2024-01-10 115044.png>)
+
+
+add New Product Image Like this:
+
+![Alt text](<Screenshot 2024-01-10 121309.png>)
