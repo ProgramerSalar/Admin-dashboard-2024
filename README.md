@@ -69,3 +69,8 @@ add pagination in Product page:
 add Customer Like this:
 
 ![Alt text](<Screenshot 2024-01-10 114646.png>)
+
+
+add Transaction Like this:
+
+![Alt text](<Screenshot 2024-01-10 115044.png>)
