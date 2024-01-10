@@ -59,3 +59,13 @@ add sorted in Product Page (sorted means :- if you click the one times then show
 
 make a this name file: react-table-config.d.ts
 and paste the data like this link:https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-table
+
+
+add pagination in Product page:
+
+![Alt text](<Screenshot 2024-01-10 113210.png>)
+
+
+add Customer Like this:
+
+![Alt text](<Screenshot 2024-01-10 114646.png>)
