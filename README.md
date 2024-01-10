@@ -54,3 +54,8 @@ add the product page:
 add sorted in Product Page (sorted means :- if you click the one times then show ascending order again click show decending order):
 
 ![Alt text](<Screenshot 2024-01-09 195559.png>)
+
+
+
+make a this name file: react-table-config.d.ts
+and paste the data like this link:https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-table
