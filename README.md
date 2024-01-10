@@ -47,6 +47,10 @@ add the Top Transaction in Dashboard:
 ![Alt text](<Screenshot 2024-01-09 191040.png>)
 
 
+add the product page:
+
+![Alt text](<Screenshot 2024-01-10 101807.png>)
+
 add sorted in Product Page (sorted means :- if you click the one times then show ascending order again click show decending order):
 
 ![Alt text](<Screenshot 2024-01-09 195559.png>)
