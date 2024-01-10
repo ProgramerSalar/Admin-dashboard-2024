@@ -85,3 +85,12 @@ add New Product Image Like this:
 add ProductManagement Image Like this:
 
 ![Alt text](<Screenshot 2024-01-10 122035.png>)
+
+
+add Transaction manage Image Like this:
+
+![Alt text](<Screenshot 2024-01-10 122952.png>)
+
+
+
+
