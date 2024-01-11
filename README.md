@@ -15,6 +15,13 @@ styles
 
 Dashboard section:----------
 
+Heading section in Dashboard:
+
+![Alt text](<Screenshot 2024-01-11 142053.png>)
+
+
+
+
 make widget section in Dashboard:
 ![Alt text](<Screenshot 2024-01-09 141329.png>)
 
